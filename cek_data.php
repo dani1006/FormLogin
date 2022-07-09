@@ -9,7 +9,7 @@ $chek = mysqli_num_rows($select);
 if($chek>0){
     echo "<script type=\"text/javascript\">".
         "alert('Berhasil Login');".
-        "location.href='index.html'".
+        "location.href='webku.php'".
         "</script>";
 }
 else{
@@ -20,8 +20,3 @@ else{
 
 ?>
 
-
- <!-- echo ("<SCRIPT LANGUAGE='JavaScript'> -->
-<!-- window.alert('Succesfully Registered')
-window.location.href='register.php';
-</SCRIPT>"); -->
